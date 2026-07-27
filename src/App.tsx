@@ -216,10 +216,7 @@ export default function App() {
             if (partSongs.length === 0) return null;
 
             return (
-              <section key={part} className="mb-8">
-                <h3 className="text-[11px] sm:text-xs uppercase tracking-[0.2em] text-[var(--accent)] font-bold mb-3 border-b border-[var(--track)] pb-1.5 select-none">
-                  {t(part as any)}
-                </h3>
+              <section key={part} className="mb-6">
                 <div className="flex flex-col">
                   {partSongs.map(song => (
                     <SongItem

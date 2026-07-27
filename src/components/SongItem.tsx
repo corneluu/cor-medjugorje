@@ -150,7 +150,7 @@ export function SongItem({ song, playingId, onPlay, lang, onOpenPdf, onOpenAudio
     >
       <div className="mb-4 px-2">
         <h2 className="text-[17px] sm:text-lg font-semibold text-[var(--text)] leading-tight">
-          {song.title} <span className="font-normal text-[var(--muted)]">— {song.composer}</span>
+          {song.title}
         </h2>
       </div>
 
