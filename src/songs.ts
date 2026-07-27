@@ -81,7 +81,7 @@ export const songs: Song[] = [
     title: 'Alleluia (Sol major)',
     composer: 'Iustin Călin',
     lang: 'LA',
-    voices: ['sopran', 'alto', 'tenor', 'bas'],
+    voices: [],
     hasScore: false, // PDF not yet available — add when ready
     category: 'alleluia',
   },
