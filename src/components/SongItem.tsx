@@ -116,7 +116,8 @@ export interface SongProps {
 
 export function SongItem({ song, playingId, onPlay, lang, onOpenPdf, onOpenAudio, onShare, isHighlighted, onTelemetry }: SongProps) {
   const { t } = lang;
-  const [activeVoice, setActiveVoice] = useState<Voice>(song.voices[0]);
+  const hasVoices = song.voices.length > 0;
+  const [activeVoice, setActiveVoice] = useState<Voice>(song.voices[0] ?? 'sopran');
 
   const handleDownloadMp3 = async (url: string, filename: string) => {
     try {
@@ -197,19 +198,21 @@ export function SongItem({ song, playingId, onPlay, lang, onOpenPdf, onOpenAudio
         )}
       </div>
 
-      <div className="px-2 w-full">
-        <AudioPlayer
-          songId={song.id}
-          voice={activeVoice}
-          path={`audio/${song.id}/${activeVoice}.${song.audioExt ?? 'mp3'}`}
-          playingId={playingId}
-          onPlay={onPlay}
-          onDownload={(url) => handleDownloadMp3(url, `${song.title} - ${t(activeVoice)}.${song.audioExt ?? 'mp3'}`)}
-          onShare={onShare}
-          onTelemetry={(action, type) => onTelemetry(action, song.title, type)}
-          t={t}
-        />
-      </div>
+      {hasVoices && (
+        <div className="px-2 w-full">
+          <AudioPlayer
+            songId={song.id}
+            voice={activeVoice}
+            path={`audio/${song.id}/${activeVoice}.${song.audioExt ?? 'mp3'}`}
+            playingId={playingId}
+            onPlay={onPlay}
+            onDownload={(url) => handleDownloadMp3(url, `${song.title} - ${t(activeVoice)}.${song.audioExt ?? 'mp3'}`)}
+            onShare={onShare}
+            onTelemetry={(action, type) => onTelemetry(action, song.title, type)}
+            t={t}
+          />
+        </div>
+      )}
 
       <div className="px-2 mt-4">
         {song.hasScore && (

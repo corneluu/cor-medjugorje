@@ -26,99 +26,137 @@ export interface Song {
   audioUrl?: string;
 }
 
+// ─────────────────────────────────────────────────────────────────────────────
+// LITURGHIA COR MEDJUGORJE — REPERTORIU COMPLET
+// ─────────────────────────────────────────────────────────────────────────────
 export const songs: Song[] = [
+
+  // ─── INTRARE ──────────────────────────────────────────────────────────────
   {
     id: 'intrare-1',
-    title: 'Spre Tine, Doamne',
-    composer: 'Tradițional',
+    title: 'Ne-aduni pe toți cu iubire',
+    composer: 'Iustin Călin',
     lang: 'RO',
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
     category: 'intrare',
-    youtubeUrl: 'https://www.youtube.com/watch?v=OkA0jqfPGsI'
   },
+
+  // ─── KYRIE ────────────────────────────────────────────────────────────────
   {
     id: 'kyrie-1',
-    title: 'Kyrie Eleison',
-    composer: 'Marco Frisina',
+    title: 'Kyrie eleison (scurt, Re major)',
+    composer: 'Iustin Călin',
     lang: 'LA',
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
     category: 'kyrie',
-    youtubeUrl: 'https://www.youtube.com/watch?v=mQ1myt4-gX4'
   },
+
+  // ─── GLORIA ───────────────────────────────────────────────────────────────
   {
     id: 'gloria-1',
-    title: 'Mărire în cer lui Dumnezeu',
-    composer: 'I. Călin',
+    title: 'Gloria (Mărire)',
+    composer: 'Iustin Călin',
     lang: 'RO',
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
-    category: 'gloria'
+    category: 'gloria',
   },
+
+  // ─── PSALM ────────────────────────────────────────────────────────────────
   {
     id: 'psalm-1',
-    title: 'Domnul este păstorul meu (Psalmul 22)',
+    title: 'În veci voi cânta a ta milostivire',
     composer: 'Tradițional',
     lang: 'RO',
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
-    category: 'psalm'
+    category: 'psalm',
   },
+
+  // ─── ALLELUIA ─────────────────────────────────────────────────────────────
   {
     id: 'alleluia-1',
-    title: 'Alleluia (Cântarea Învierii)',
-    composer: 'Tradițional',
+    title: 'Alleluia (Sol major)',
+    composer: 'Iustin Călin',
     lang: 'LA',
     voices: ['sopran', 'alto', 'tenor', 'bas'],
-    hasScore: true,
-    category: 'alleluia'
+    hasScore: false, // PDF not yet available — add when ready
+    category: 'alleluia',
   },
+
+  // ─── OFERTORU ─────────────────────────────────────────────────────────────
   {
     id: 'ofertoru-1',
-    title: 'Primiți, o, Părinte',
-    composer: 'Tradițional',
+    title: 'Cristos e lumina',
+    composer: 'Iustin Călin',
     lang: 'RO',
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
-    category: 'ofertoru'
+    category: 'ofertoru',
   },
+
+  // ─── SANCTUS ──────────────────────────────────────────────────────────────
   {
     id: 'sanctus-1',
-    title: 'Sanctus (Sfânt, Sfânt)',
-    composer: 'Marco Frisina',
-    lang: 'LA',
+    title: 'Sfânt (Sanctus)',
+    composer: 'Iustin Călin',
+    lang: 'RO',
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
-    category: 'sanctus'
+    category: 'sanctus',
   },
+
+  // ─── AGNUS DEI ────────────────────────────────────────────────────────────
   {
     id: 'agnus-1',
-    title: 'Agnus Dei (Mielul lui Dumnezeu)',
-    composer: 'Marco Frisina',
+    title: 'Agnus Dei (clasic)',
+    composer: 'Tradițional',
     lang: 'LA',
-    voices: ['sopran', 'alto', 'tenor', 'bas'],
-    hasScore: true,
-    category: 'agnus-dei'
+    voices: [],
+    hasScore: false, // Fișierele nu sunt disponibile local — adaugă manual
+    category: 'agnus-dei',
   },
+
+  // ─── IMPARTASANIE ─────────────────────────────────────────────────────────
   {
     id: 'impartasanie-1',
-    title: 'Anima Christi (Sufletul lui Cristos)',
-    composer: 'Marco Frisina',
-    lang: 'LA',
+    title: 'Toți suntem una',
+    composer: 'Iustin Călin',
+    lang: 'RO',
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
     category: 'impartasanie',
-    youtubeUrl: 'https://www.youtube.com/watch?v=mQ1myt4-gX4'
   },
   {
+    id: 'impartasanie-2',
+    title: 'Jesus Christ, You Are My Life',
+    composer: 'Marco Frisina',
+    lang: 'EN',
+    voices: ['sopran', 'alto', 'tenor', 'bas'],
+    hasScore: true,
+    category: 'impartasanie',
+    youtubeUrl: 'https://www.youtube.com/watch?v=VGpnbfYayHI',
+  },
+  {
+    id: 'impartasanie-3',
+    title: 'Dăruiește pacea',
+    composer: 'Iustin Călin',
+    lang: 'RO',
+    voices: [],
+    hasScore: false, // Fișierele nu sunt disponibile — adaugă manual
+    category: 'impartasanie',
+  },
+
+  // ─── INCHEIERE ────────────────────────────────────────────────────────────
+  {
     id: 'incheiere-1',
-    title: 'Gospa, Maica Noastră',
-    composer: 'Medjugorje Hymn',
+    title: 'Maria, Tu ești a lumii mamă',
+    composer: 'Iustin Călin',
     lang: 'RO',
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
     category: 'incheiere',
-    youtubeUrl: 'https://www.youtube.com/watch?v=usp_BvxPslk'
-  }
+  },
 ];
