@@ -29,12 +29,12 @@ const assets = [
   { songId: 'kyrie-1',   type: 'audio', voice: 'alto',   driveId: '15C4dtQyZfHs8Co3jbPXmlcsAMYU02bg8' },
   { songId: 'kyrie-1',   type: 'audio', voice: 'tenor',  driveId: '18lfDjpsqvywh6NoWkLeEJCLT1LvnDT42' },
   { songId: 'kyrie-1',   type: 'audio', voice: 'bas',    driveId: '1J3-ICP2CXOXrX6nd8Fx5rB6KmNiwUwdO' },
-  // GLORIA 2
-  { songId: 'gloria-1',  type: 'pdf',   voice: null,    driveId: '1gJtrliM7WjD9IBvHvxXxYd9xIvUQ9DJg' },
-  { songId: 'gloria-1',  type: 'audio', voice: 'sopran', driveId: '1M67rCmUUeodwVbCbZ9t2QIL0K_yj8ukJ' },
-  { songId: 'gloria-1',  type: 'audio', voice: 'alto',   driveId: '1QIXILMmeWJHFtUR5nf23hasgRQK_hLXe' },
-  { songId: 'gloria-1',  type: 'audio', voice: 'tenor',  driveId: '1deVeRCkkPwiBw-4wNxunAERnYQFR2Sf_' },
-  { songId: 'gloria-1',  type: 'audio', voice: 'bas',    driveId: '1EhAA68pjyyKFjqFRBmKYFdwfBCtLYDuB' },
+  // GLORIA 1 (Agostino Ricotta / Arr. Damir Bunoza)
+  { songId: 'gloria-1',  type: 'pdf',   voice: null,    driveId: '1TGgQAhc9dguDaU_XaO1rdquTCh7dKuLs' },
+  { songId: 'gloria-1',  type: 'audio', voice: 'sopran', driveId: '1r-so8AAp1f-S6lrGC3e96Hsz1ZBK-Kui' },
+  { songId: 'gloria-1',  type: 'audio', voice: 'alto',   driveId: '12ihRcAaOTVRPoTNVxrRChaDt6v52RvjF' },
+  { songId: 'gloria-1',  type: 'audio', voice: 'tenor',  driveId: '13yrgk01Ci8ijfXP5PDBC8OdUaZrS9HEm' },
+  { songId: 'gloria-1',  type: 'audio', voice: 'bas',    driveId: '1vslIyhn1YQbxphxzAcQFmgKWlV_gherI' },
   // PSALM
   { songId: 'psalm-1',   type: 'pdf',   voice: null,    driveId: '1MZjtsbOgUtzqekB7vBOxhM4FsAl2aB23' },
   { songId: 'psalm-1',   type: 'audio', voice: 'sopran', driveId: '1VT9U0QdNvCDnwRgMmKUiiAJrQTsbxWc5' },
@@ -65,12 +65,6 @@ const assets = [
   { songId: 'impartasanie-2', type: 'audio', voice: 'alto',   driveId: '1haOjoT5egDLGwYghcDUiprBMzUjU9X_S' },
   { songId: 'impartasanie-2', type: 'audio', voice: 'tenor',  driveId: '1YEI6F19f25kNIKPIR2rub3XrIwHTGV_I' },
   { songId: 'impartasanie-2', type: 'audio', voice: 'bas',    driveId: '1c9JniaW7e9wsqRq9DlYs8twCBKAdc0C5' },
-  // INCHEIERE: Maria, vrem sa te iubim
-  { songId: 'incheiere-1', type: 'pdf',   voice: null,    driveId: '1xaNK2zuBYveY7APMhOHdKxbAdMC0FrWZ' },
-  { songId: 'incheiere-1', type: 'audio', voice: 'sopran', driveId: '1eeGWz0paRR4v2tJjl00XaASGMVken7Gf' },
-  { songId: 'incheiere-1', type: 'audio', voice: 'alto',   driveId: '1DKXLckhY5x2K-C_oAo4SUmHmtcsPGaF_' },
-  { songId: 'incheiere-1', type: 'audio', voice: 'tenor',  driveId: '1qAKLruWYjP0w5PI4i3fYfGj225_swuge' },
-  { songId: 'incheiere-1', type: 'audio', voice: 'bas',    driveId: '1hs2jVdlECoNwNgm0BMNuhEipKtjOB_SR' },
 ];
 
 // ─── HTTP GET HELPER ─────────────────────────────────────────────────────────

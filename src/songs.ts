@@ -155,8 +155,8 @@ export const songs: Song[] = [
     title: 'Maria, Tu ești a lumii mamă',
     composer: 'Iustin Călin',
     lang: 'RO',
-    voices: ['sopran', 'alto', 'tenor', 'bas'],
-    hasScore: true,
+    voices: [],
+    hasScore: false,
     category: 'incheiere',
   },
 ];
