@@ -78,11 +78,11 @@ export const songs: Song[] = [
   // ─── ALLELUIA ─────────────────────────────────────────────────────────────
   {
     id: 'alleluia-1',
-    title: 'Alleluia (Sol major)',
-    composer: 'Iustin Călin',
+    title: 'Halelluya',
+    composer: 'Zlatko Špoljarević (arr.)',
     lang: 'LA',
-    voices: [],
-    hasScore: false, // PDF not yet available — add when ready
+    voices: ['sopran', 'alto', 'tenor', 'bas'],
+    hasScore: true,
     category: 'alleluia',
   },
 
@@ -115,7 +115,7 @@ export const songs: Song[] = [
     composer: 'Tradițional',
     lang: 'LA',
     voices: [],
-    hasScore: false, // Fișierele nu sunt disponibile local — adaugă manual
+    hasScore: true,
     category: 'agnus-dei',
   },
 
@@ -153,10 +153,10 @@ export const songs: Song[] = [
   {
     id: 'incheiere-1',
     title: 'Maria, Tu ești a lumii mamă',
-    composer: 'Iustin Călin',
+    composer: 'Tradițional / Iustin Călin',
     lang: 'RO',
     voices: [],
-    hasScore: false,
+    hasScore: true,
     category: 'incheiere',
   },
 ];
