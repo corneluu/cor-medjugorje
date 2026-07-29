@@ -61,7 +61,7 @@ export const songs: Song[] = [
     title: 'Gloria (INCTC 2026)',
     composer: 'Iustin Călin',
     lang: 'RO',
-    voices: [],
+    voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
     category: 'gloria',
     youtubeUrl: 'https://youtube.com/shorts/VC0a96gz0fw?is=ILFvPvhL7FRo10R6',
@@ -150,13 +150,13 @@ export const songs: Song[] = [
   },
   {
     id: 'impartasanie-3',
-    title: 'Dăruiește pacea',
-    composer: 'Iustin Călin',
+    title: 'Cine ne va despărți',
+    composer: 'Marco Frisina',
     lang: 'RO',
-    voices: [],
-    hasScore: false, // Fișierele nu sunt disponibile — adaugă manual
+    voices: ['sopran', 'alto', 'tenor', 'bas'],
+    hasScore: true,
     category: 'impartasanie',
-    youtubeUrl: 'https://youtu.be/4QNsuFThEQ8?is=a40H0rJ21lRq_siH',
+    youtubeUrl: 'https://youtu.be/kYJ_tN-pP0g',
   },
 
   // ─── INCHEIERE ────────────────────────────────────────────────────────────
