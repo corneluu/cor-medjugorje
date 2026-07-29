@@ -156,7 +156,7 @@ export const songs: Song[] = [
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
     category: 'impartasanie',
-    youtubeUrl: 'https://youtu.be/kYJ_tN-pP0g',
+    youtubeUrl: 'https://www.youtube.com/live/FTqcUhNrA-k?si=j4YcPcO32KxX6wxD&t=5783',
   },
 
   // ─── INCHEIERE ────────────────────────────────────────────────────────────
