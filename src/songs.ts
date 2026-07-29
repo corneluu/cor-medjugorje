@@ -45,10 +45,10 @@ export const songs: Song[] = [
   // ─── KYRIE ────────────────────────────────────────────────────────────────
   {
     id: 'kyrie-1',
-    title: 'Kyrie eleison (scurt, Re major)',
+    title: 'Kyrie',
     composer: 'Iustin Călin',
     lang: 'LA',
-    voices: ['sopran', 'alto', 'tenor', 'bas'],
+    voices: [],
     hasScore: true,
     category: 'kyrie',
   },
@@ -56,10 +56,10 @@ export const songs: Song[] = [
   // ─── GLORIA ───────────────────────────────────────────────────────────────
   {
     id: 'gloria-1',
-    title: 'Gloria (Mărire)',
+    title: 'Gloria (INCTC 2026)',
     composer: 'Iustin Călin',
     lang: 'RO',
-    voices: ['sopran', 'alto', 'tenor', 'bas'],
+    voices: [],
     hasScore: true,
     category: 'gloria',
   },
@@ -89,7 +89,7 @@ export const songs: Song[] = [
   // ─── OFERTORU ─────────────────────────────────────────────────────────────
   {
     id: 'ofertoru-1',
-    title: 'Cristos e lumina',
+    title: 'Cristos e lumina (INCTC 2026)',
     composer: 'Iustin Călin',
     lang: 'RO',
     voices: ['sopran', 'alto', 'tenor', 'bas'],
@@ -100,10 +100,10 @@ export const songs: Song[] = [
   // ─── SANCTUS ──────────────────────────────────────────────────────────────
   {
     id: 'sanctus-1',
-    title: 'Sfânt (Sanctus)',
+    title: 'Sanctus',
     composer: 'Iustin Călin',
     lang: 'RO',
-    voices: ['sopran', 'alto', 'tenor', 'bas'],
+    voices: [],
     hasScore: true,
     category: 'sanctus',
   },
@@ -111,7 +111,7 @@ export const songs: Song[] = [
   // ─── AGNUS DEI ────────────────────────────────────────────────────────────
   {
     id: 'agnus-1',
-    title: 'Agnus Dei (clasic)',
+    title: 'Agnus dei',
     composer: 'Tradițional',
     lang: 'LA',
     voices: [],
@@ -131,7 +131,7 @@ export const songs: Song[] = [
   },
   {
     id: 'impartasanie-2',
-    title: 'Jesus Christ, You Are My Life',
+    title: 'Jesus Christ, you are my life',
     composer: 'Marco Frisina',
     lang: 'EN',
     voices: ['sopran', 'alto', 'tenor', 'bas'],
