@@ -40,6 +40,7 @@ export const songs: Song[] = [
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
     category: 'intrare',
+    youtubeUrl: 'https://youtu.be/sjkaWdBh3UM?is=7xyglKbjvFV4F7KE',
   },
 
   // ─── KYRIE ────────────────────────────────────────────────────────────────
@@ -51,6 +52,7 @@ export const songs: Song[] = [
     voices: [],
     hasScore: true,
     category: 'kyrie',
+    youtubeUrl: 'https://youtu.be/3FuHd53xaSI?is=4Ufx6pgqrnYTeaPC',
   },
 
   // ─── GLORIA ───────────────────────────────────────────────────────────────
@@ -62,6 +64,7 @@ export const songs: Song[] = [
     voices: [],
     hasScore: true,
     category: 'gloria',
+    youtubeUrl: 'https://youtube.com/shorts/VC0a96gz0fw?is=ILFvPvhL7FRo10R6',
   },
 
   // ─── PSALM ────────────────────────────────────────────────────────────────
@@ -73,6 +76,7 @@ export const songs: Song[] = [
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
     category: 'psalm',
+    youtubeUrl: 'https://youtu.be/4mOCxM-HM4c?is=JrWoaUVoO2x_2Yd2',
   },
 
   // ─── ALLELUIA ─────────────────────────────────────────────────────────────
@@ -84,6 +88,7 @@ export const songs: Song[] = [
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
     category: 'alleluia',
+    youtubeUrl: 'https://youtu.be/85WEIeNITtc?feature=shared',
   },
 
   // ─── OFERTORU ─────────────────────────────────────────────────────────────
@@ -95,6 +100,7 @@ export const songs: Song[] = [
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
     category: 'ofertoru',
+    youtubeUrl: 'https://youtu.be/ZFDRm1fAj14?is=27a0Bp-Gf4-81hD7',
   },
 
   // ─── SANCTUS ──────────────────────────────────────────────────────────────
@@ -106,6 +112,7 @@ export const songs: Song[] = [
     voices: [],
     hasScore: true,
     category: 'sanctus',
+    youtubeUrl: 'https://youtu.be/x8ZcGNHU4dU?is=TxYWr5eK6szGIuPs',
   },
 
   // ─── AGNUS DEI ────────────────────────────────────────────────────────────
@@ -117,6 +124,7 @@ export const songs: Song[] = [
     voices: [],
     hasScore: true,
     category: 'agnus-dei',
+    youtubeUrl: 'https://youtu.be/myxplSQOubQ?is=XmaHQ78PU9HOpzTW',
   },
 
   // ─── IMPARTASANIE ─────────────────────────────────────────────────────────
@@ -128,6 +136,7 @@ export const songs: Song[] = [
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
     category: 'impartasanie',
+    youtubeUrl: 'https://youtu.be/etzkAcqpvZY?is=FPdJyX_G4tyoKKeH',
   },
   {
     id: 'impartasanie-2',
@@ -137,7 +146,7 @@ export const songs: Song[] = [
     voices: ['sopran', 'alto', 'tenor', 'bas'],
     hasScore: true,
     category: 'impartasanie',
-    youtubeUrl: 'https://www.youtube.com/watch?v=VGpnbfYayHI',
+    youtubeUrl: 'https://youtu.be/Cri2XbOhNTQ?is=A_VzyFGB94UnE4NG',
   },
   {
     id: 'impartasanie-3',
@@ -147,6 +156,7 @@ export const songs: Song[] = [
     voices: [],
     hasScore: false, // Fișierele nu sunt disponibile — adaugă manual
     category: 'impartasanie',
+    youtubeUrl: 'https://youtu.be/4QNsuFThEQ8?is=a40H0rJ21lRq_siH',
   },
 
   // ─── INCHEIERE ────────────────────────────────────────────────────────────
@@ -158,5 +168,6 @@ export const songs: Song[] = [
     voices: [],
     hasScore: true,
     category: 'incheiere',
+    youtubeUrl: 'https://youtu.be/tEpw_TfNwl8?is=UONqzrxL628jELl3',
   },
 ];
